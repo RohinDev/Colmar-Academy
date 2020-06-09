@@ -1,0 +1,63 @@
+/* universal style */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header section */
+
+header {
+    background-color: white;
+    height: 64px;
+    align-items: center;
+    width: 100;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h1 span {
+    color: gray;
+}
+
+nav span {
+    display: inline-block;
+    padding-right: 16px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1; 
+}
+
+/* Landing page */
+
+.landing-page{
+    display: flex;
+    background-color: lightgray;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width:;
+}
+
+.flex {
+    display: inline-flex
+}
+
+.flex img{
+    width: 60%;
+}
+
+.headings {
+    display: block;
+    padding-left: 24px;
+    justify-content: center;
+    ;
+}
