@@ -58,6 +58,43 @@ nav {
 .headings {
     display: block;
     padding-left: 24px;
-    justify-content: center;
-    ;
+    width: 30%;
+    
 }
+
+.headings h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #4d4c4c;
+    text-align: left;
+    font-family: arial;
+}
+
+.headings h4{
+    font-size: 28px;
+    color: #4d4c4c;
+    text-align: left;
+    font-weight: normal;
+    font-family: arial;
+}
+
+.headings p{
+    color: white;
+    background-color: #4c4c4c;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* page 2 */
+
+.leftcontainer{
+    width: 60%;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+
+
+
