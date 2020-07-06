@@ -54,7 +54,8 @@ nav {
 }
 
 .flex {
-    display: inline-flex
+    display: flex;
+    align-items: center;
 }
 
 .flex img{
@@ -96,13 +97,12 @@ nav {
 /* page 2 */
 
 #pagetwo{
-    display: flex;
-    width: 100%;    
+    display: grid;
+    grid-template-columns: 60% 40%;   
 }
 
 .leftcontainer{
    padding: 24px 32px; 
-   width: 60%;   
    
 }
 
@@ -123,12 +123,12 @@ nav {
 #rightcontainer {
     display: block;
     border-left: lightgray 1px solid;
-    width: 40%;
 }
 
 .block{
     display: flex;
     border-bottom: lightgray;
+    align-items: center;
 }
 
 .block img{
@@ -139,9 +139,7 @@ nav {
 
 .text{
     display: block;
-    width: 65%;
-    vertical-align: middle;
-    
+    width: 65%; 
 }
 
 
@@ -156,3 +154,34 @@ nav {
 }
 
 
+/* page 3 */
+
+#page3{
+    background-color: lightgray;
+    
+}
+
+.startlearning h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;   
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lightgray;
+    grid-gap: 32px;
+    
+}
+
+.griditem{
+    background-color: white;
+    ;
+}
+
+.text3 {
+    padding-left: 16px;
+    padding-top: 16px;
+}
